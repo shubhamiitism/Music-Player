@@ -1,0 +1,17 @@
+touch .gitignore
+git config --global user.name Shubham
+git config --global user.email "shubhamyadav3515@gmail.com"
+git init
+git add .
+git commit -m "Initial commit"
+git status //Just to see
+git remote add origin <ssh url.git>  //url.git see from github
+git push origin master
+
+
+after doing all this ur project will be uploaded to github, if u want to edit afterwards, then 
+git status
+git add .
+git commit -m "added new things"
+git push origin master
+
