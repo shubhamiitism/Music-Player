@@ -6,6 +6,12 @@ git add .
 git commit -m "Initial commit"
 git status //Just to see
 git remote add origin <ssh url.git>  //url.git see from github
+
+if(error: remote origin already exists.){
+  git remote remove origin
+  git remote add origin <ssh url.git>  //url.git see from github
+}
+
 git push origin master
 
 
